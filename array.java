@@ -16,7 +16,7 @@ public class array {
         markScores = new int[INITIAL_CAPACITY];
         totalOccurrences = 0;
 
-        //ask for scores
+        //ask for scores or out when -ve
         while (true) {
             System.out.print("\nEnter a score (or a negative value to exit): ");
             score = In.getInt();
