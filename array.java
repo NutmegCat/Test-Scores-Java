@@ -1,4 +1,4 @@
-public class arrays {
+public class array {
 
     //initialize vars
     static int score;
